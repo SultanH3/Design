@@ -8,7 +8,7 @@ Use `/remember <anything>` to add to this file — it commits and pushes automat
 
 ## About Me
 <!-- Sultan's profile, background, and context go here -->
-- Email: sultan.hakeem89@gmail.com
+<!-- Do not store email or personal contact info here — repo is public -->
 
 ## My Goals
 <!-- Long-term and short-term goals -->
