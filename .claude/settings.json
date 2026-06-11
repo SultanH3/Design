@@ -1,0 +1,35 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/user/Design/setup.sh >> /tmp/setup.log 2>&1 & echo '[SESSION START] Setup running in background...' && echo '' && echo '=== LOADING PERSISTENT MEMORY ===' && cat /home/user/Design/memory.md && echo '' && echo '=== MEMORY LOADED ==='"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install*)",
+      "Bash(pip install*)",
+      "Bash(npm install*)",
+      "Bash(npm install -g*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git fetch*)",
+      "Bash(git pull*)",
+      "Bash(git checkout*)",
+      "Bash(python3*)",
+      "Bash(node*)",
+      "Bash(bun*)",
+      "Bash(sudo apt*)",
+      "Bash(apt-get*)",
+      "Bash(bash /home/user/Design/setup.sh*)",
+      "Bash(cat /home/user/Design/memory.md*)"
+    ]
+  }
+}
